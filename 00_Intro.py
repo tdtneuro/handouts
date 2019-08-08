@@ -71,7 +71,7 @@ from tdt import read_block, epoc_filter
 data = read_block(BLOCK_PATH)
 data = epoc_filter(data, 'Tick', t=[-0.3, 0.8], values=[5, 10, 15])
 ```
-**TDTbin2mat** and **read_block** share parameters, but the parameters have different names.
+**TDTfilter** and **epoc_filter** share parameters, but the parameters have different names.
 
 #### Parameter Name Translation Table
 
