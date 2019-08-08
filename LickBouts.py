@@ -58,7 +58,7 @@ p2, = ax0.plot(time_x, data.streams[ISOS].data, linewidth=2,
 
 ax0.set_ylabel('mV')
 ax0.set_xlabel('Seconds')
-ax0.set_title('Raw Demodulated Responsed')
+ax0.set_title('Raw Demodulated Responses')
 ax0.legend(handles=[p1,p2], loc='upper right')
 fig1.tight_layout()
 
@@ -66,7 +66,7 @@ doc.add_figure(fig1) # handout: exclude
 doc.show() # handout: exclude
 
 """
-***Artifact Removal***
+**Artifact Removal**
 
 There is often a large artifact on the onset of LEDs turning on\
 Remove data below a set time `t`
@@ -97,7 +97,7 @@ p2, = ax1.plot(time_x, data.streams[ISOS].data, linewidth=2,
 
 ax1.set_ylabel('mV')
 ax1.set_xlabel('Seconds')
-ax1.set_title('Raw Demodulated Responsed with Artifact Removed')
+ax1.set_title('Raw Demodulated Responses with Artifact Removed')
 ax1.legend(handles=[p1,p2],loc='upper right')
 fig2.tight_layout()
 

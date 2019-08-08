@@ -143,6 +143,8 @@ ax1.set_title('{0} {1} Trials ({2} Artifacts Removed)'.format(
     STREAM_STORE,
     len(data.streams[STREAM_STORE].filtered),
     num_artifacts))
+plt.ion() # handout: exclude
+plt.show()
 doc.add_figure(fig) # handout: exclude
 doc.show() # handout: exclude
 
