@@ -340,9 +340,16 @@ A simple stem plot
 
 fig1 = plt.figure(figsize=(10, 6))
 plt.stem(data.epocs.Pu1e.onset, data.epocs.Pu1e.data)
+plt.ion() # handout: exclude
 plt.show()
 doc.add_figure(fig1) # handout: exclude
 doc.show() # handout: exclude
+
+"""
+For reference, here are some common matplotlib plotting options originally from [https://www.github.com/rougier/matplotlib-cheatsheet](https://www.github.com/rougier/matplotlib-cheatsheet)
+
+![originally from https://www.github.com/rougier/matplotlib-cheatsheet](https://raw.githubusercontent.com/rougier/matplotlib-cheatsheet/master/matplotlib-cheatsheet.png)
+"""
 
 #index_file = os.path.join(fname, 'index.html') # handout: exclude
 #os.system("start " + index_file) # handout: exclude
