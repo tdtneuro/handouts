@@ -33,7 +33,7 @@ download_demo_data()
 BLOCK_PATH = 'data/Algernon-180308-130351'
 
 """
-### Set up the varibles for the data you want to extract.
+### Set up the variables for the data you want to extract.
 We will extract channel 3 from the LFP1 stream data store, created by the Neural Stream Processor gizmo, and use our PulseGen epoc event ('PC0/') as our stimulus onset.
 """
 
